@@ -1,3 +1,9 @@
+'''
+Temperature converter from C to F
+and
+F to C
+'''
+
 import sys
 
 def Fahrenheit2Celcius(Tf):
