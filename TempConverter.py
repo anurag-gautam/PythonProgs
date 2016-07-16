@@ -20,8 +20,8 @@ if __name__ == "__main__":
     print "Convert to (F or f)ahrenheit or (C or c)elsius? "
     choice = raw_input()
     if choice == "F" or choice == "f":
-        print "Entered Temperature is {} Celcius and its conversion in Fahrenheit is {:.2f}".format(Temp,Celcius2Fahrenheit(Temp))
+        print "{} C = {:.2f} F".format(Temp,Celcius2Fahrenheit(Temp))
     elif choice == "C" or choice == "c":
-        print "Entered Temperature is {} Fahrenheit and its conversion in Celcius is {:.2f}".format(Temp,Fahrenheit2Celcius(Temp))
+        print "{} F = {:.2f} C".format(Temp,Fahrenheit2Celcius(Temp))
     else:
         print "Respond with F or C option..Try again! "
